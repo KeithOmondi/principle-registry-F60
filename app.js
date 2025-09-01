@@ -16,7 +16,7 @@ export const app = express();
 
 // CORS
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://principle-registryf60.vercel.app",
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true,
 }));
